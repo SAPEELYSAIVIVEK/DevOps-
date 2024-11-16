@@ -1,5 +1,5 @@
 FROM openjdk:21-jdk-slim
-WORKDIR /devOps
+WORKDIR usr/src/devOps
 COPY ./hello
 RUN javac hello.java
 CMD ["java","hello"]
