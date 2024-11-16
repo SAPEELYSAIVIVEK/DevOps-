@@ -1,4 +1,4 @@
-From openjdk:21-jdk-slim
+FROM openjdk:21-jdk-slim
 WORKDIR C:\Users\saivi\OneDrive\Desktop\devOps
 COPY ./hello
 RUN javac hello.java
